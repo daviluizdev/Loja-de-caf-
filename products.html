@@ -1,0 +1,39 @@
+<!-- products.html -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Produtos</h1>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="about.html">Sobre a Empresa</a>
+            <a href="products.html">Produtos</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="product-management">
+            <h2>Cadastro de Produtos</h2>
+            <form id="productForm">
+                <input type="text" id="productName" placeholder="Nome do Produto" required>
+                <input type="text" id="productPrice" placeholder="Preço do Produto" required>
+                <button type="submit">Adicionar Produto</button>
+            </form>
+            <ul id="productList"></ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Loja de Cafés © 2023</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
